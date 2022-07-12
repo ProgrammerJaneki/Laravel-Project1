@@ -4,11 +4,11 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class Counter extends Component
-{
+class Counter extends Component {
 
-    public function render()
-    {
+    public $age = 'twenty';
+
+    public function render() {
         return view('livewire.counter');
     }
 }
